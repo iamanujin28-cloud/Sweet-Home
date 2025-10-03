@@ -1,24 +1,47 @@
-@import url('https://fonts.googleapis.com/css2?family=Frijole&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Delius&family=Fredericka+the+Great&family=Frijole&family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Delius&family=Frijole&family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 
 body{
-    background-color: #FEFEFE;
+    background-color: #c1dab0;
 }
 html, body {
     margin: 0;
     padding: 0;
-
+}
+p, ul, ol{
+    font-family: "Istok Web", system-ui;
+    font-size: 16px;
+    line-height: 30px;
+}
+ul, ol{
+    padding: 0;
+    list-style-position: inside;
+}
+a{
+    color: rgb(0, 47, 114);
+}
+a:hover{
+    color: rgb(249, 255, 125);
+}
+a:active{
+    color: rgb(255, 255, 255);
+}
+p.caption{
+    font-size: 16px;
+    margin-top: 0;
+    font-style: oblique;
 }
 
 header {
     text-align: center;
-    background-color: #D25344;
+    background-color: #1e261f;
     padding: 20px;
 }
 
 header .pfp {
     width: 300px;
     height: 300px;
-    border: 20px solid #EAB042 ;
+    border: 20px solid #c1dab0 ;
     border-radius: 50%;
     background-image: url('./../img/guy.jpg');
     background-position: center center;
@@ -27,12 +50,26 @@ header .pfp {
 }
 
 header h1 {
-  font-family: "Frijole", system-ui;
+  font-family: "Fredericka the Great", system-ui;
   font-weight: 400;
   font-style: normal;
   font-size: 50px;
   margin: 10px 0 20px 0;
-  color: #FEFEFE;
+  color: #c1dab0;
 }
 
+h2{
+    font-family: "Istok Web", system-ui;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 34px;
+    margin: 50px 0 0px 0;
+    color: #162c18;
+}
+main{
+    width: 800px;
+    margin: 0 auto;
+}
+main img{
+    max-width: 100%;
 }
