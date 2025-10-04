@@ -18,10 +18,10 @@ ul, ol{
     list-style-position: inside;
 }
 a{
-    color: rgb(0, 47, 114);
+    color: rgb(100, 138, 84);
 }
 a:hover{
-    color: rgb(249, 255, 125);
+    color: rgb(45, 171, 28);
 }
 a:active{
     color: rgb(255, 255, 255);
@@ -39,8 +39,8 @@ header {
 }
 
 header .pfp {
-    width: 300px;
-    height: 300px;
+    width: 220px;
+    height: 220px;
     border: 7px solid #edffe1 ;
     border-radius: 50%;
     background-image: url('./../img/guy.jpg');
@@ -49,7 +49,7 @@ header .pfp {
     margin: 20px auto;
 }
 
-header h1 {
+h1 {
   font-family: "Fredericka the Great", system-ui;
   font-weight: 400;
   font-style: normal;
@@ -66,9 +66,20 @@ h2{
     margin: 50px 0 0px 0;
     color: #162c18;
 }
+
+@media (max-width: 600px) {
+    h1{
+        font-size: 30px;
+    }
+
+    h2{
+        font-size: 20px;
+    }
+}
 main{
-    width: 800px;
+    max-width: 800px;
     margin: 0 auto;
+    padding: 20px;
 }
 main img{
     max-width: 100%;
@@ -85,7 +96,7 @@ footer{
     }
 }
 footer .content{
-    width: 800px;
+    max-width: 800px;
     margin: 0 auto;
 }
 footer a{
@@ -96,4 +107,9 @@ footer a:visited{
 }
 footer a:hover{
     color: aqua;
+}
+@media (max-width: 600px) {
+    footer p{
+        font-size: 16px;
+    }
 }
