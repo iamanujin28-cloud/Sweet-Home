@@ -95,6 +95,7 @@ footer{
          font-family: "Istok Web", system-ui;
          font-weight: 500;
         color: #ebfff0 ;
+        line-height: 15px;
     }
 }
 footer .content{
